@@ -4,7 +4,7 @@ const Message = ({ text }) => {
     return <p>{text}</p>;
 };
 
-const App = () => {
+const Stateless = () => {
     return (
         <div>
             <Message text="Це статичне повідомлення!" />
@@ -12,4 +12,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Stateless;
